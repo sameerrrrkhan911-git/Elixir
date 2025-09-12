@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Services</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet">
+
+    <!-- Services Page CSS -->
+    <link rel="stylesheet" href="./Assets/css/services.css">
+
+    <!-- AOS + Remix Icons -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  </head>
+  <body>
+
+<main class="services-main" id="top">
+
+  <!-- Services Section -->
+  <section class="services-section text-center py-0 position-relative">
+
+    <!-- Background -->
+    <div class="services-bg">
+      <img src="./Assets/images/background-1.jpg" alt="background">
+    </div>
+
+    <!-- Content -->
+    <div class="services-container">
+      <div class="services-row d-flex justify-content-center align-items-center">
+
+        <div class="services-col col-md-9 col-lg-6 mx-auto" data-zanim-timeline="{}">
+
+          <!-- Logo -->
+          <div class="services-logo mb-5" data-zanim-xs='{"delay":0,"duration":1}'>
+            <a href="../index.html">
+              <img src="./Assets/images/logo-light (1).png" alt="logo">
+            </a>
+          </div>
+
+          <!-- Card -->
+          <div class="services-card card shadow-lg rounded-4" data-zanim-xs='{"delay":0.1,"duration":1}'>
+            <div class="card-body p-md-5">
+              <h4 class="text-uppercase fs-0 fs-md-1 mb-4">Create your Elixir account</h4>
+
+              <!-- Form -->
+              <form class="services-form text-start">
+                <div class="row align-items-center g-4">
+                  <div class="col-6">
+                    <input class="form-control" type="text" placeholder="First name" aria-label="First Name">
+                  </div>
+                  <div class="col-6">
+                    <input class="form-control" type="text" placeholder="Last name" aria-label="Last Name">
+                  </div>
+                  <div class="col-12">
+                    <input class="form-control" type="email" placeholder="Email Address" aria-label="Email Address">
+                  </div>
+                  <div class="col-12">
+                    <input class="form-control" type="password" placeholder="Password" aria-label="Password">
+                  </div>
+                  <div class="col-12">
+                    <input class="form-control" type="password" placeholder="Confirm Password" aria-label="Confirm Password">
+                  </div>
+                </div>
+
+                <!-- Terms + Button -->
+                <div class="row align-items-center mt-4">
+                  <div class="col-6">
+                    <div class="form-check">
+                      <input class="form-check-input" id="agreeTerms" type="checkbox" value="">
+                      <label class="form-check-label fw-semibold small" for="agreeTerms">
+                        I agree with the terms &amp; conditions
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <button class="btn btn-primary w-100" type="submit">Create Account</button>
+                  </div>
+                </div>
+              </form>
+              <!-- /form -->
+
+            </div>
+          </div><!-- /card -->
+
+        </div>
+      </div>
+    </div><!-- /services-container -->
+
+  </section><!-- /services-section -->
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+#fdd428
+:root {
+  --heading-color: #2a3855;
+  --button-color:#fdd428;
+}
+
+.top-nav{
+    background-color: var(--heading-color);
+    padding: 8px;
+}

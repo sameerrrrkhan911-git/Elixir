@@ -1,0 +1,66 @@
+/* ==============================
+   Root Variables
+=================================*/
+:root {
+  --heading-color: #2a3855;
+  --button-color:#fdd428;
+}
+.white{
+  color: white; 
+}
+.heading{
+  color: var(--heading-color);
+}
+.heading-bg{
+  background-color: var(--heading-color);
+}
+.yellow{
+  color: var(--button-color);
+}
+.big{
+  font-size: 75px;
+}
+/* Topbar */
+.topbar {
+  background: var(--heading-color);
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 0;
+}
+
+/* Navbar */
+.main-nav {
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, .06);
+  padding: 10px;
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+.brand-text {
+  color: var(--heading-color) !important;
+  font-size: 30px !important;
+}
+
+.nav-item {
+  color: var(--heading-color) !important;
+  font-weight: 6  00;
+}
+
+.purchase-bn {
+  border: 2px solid var(--heading-color);
+  border-radius: 30px;
+  padding:4px 18px;
+  background: transparent;
+  color: var(--heading-color);
+}
+/* Header */
+.hero-header {
+  background: url(https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg) no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

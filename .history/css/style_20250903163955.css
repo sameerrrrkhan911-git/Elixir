@@ -1,0 +1,175 @@
+/* ==============================
+   Root Variables
+=================================*/
+:root {
+  --heading-color: #2a3855;
+  --button-color: #fdd428;
+}
+
+.white {
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.heading {
+  color: var(--heading-color);
+}
+
+.heading-bg {
+  background-color: var(--heading-color);
+}
+
+.yellow {
+  color: var(--button-color);
+}
+
+.yellow-bg {
+  color: var(--button-color);
+}
+
+.big {
+  font-size: 75px;
+}
+
+.line {
+  height: 3px;
+  width: 55px;
+  background-color: var(--heading-color);
+  margin: 10px auto;
+}
+
+.grey-bg {
+  background-color: #fafafa;
+}
+call-back-form{
+  padding: 100px;
+}
+/* Topbar */
+.topbar {
+  background: var(--heading-color);
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 0;
+}
+
+/* Navbar */
+.main-nav {
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, .06);
+  padding: 10px;
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+.brand-text {
+  color: var(--heading-color) !important;
+  font-size: 30px !important;
+}
+
+.nav-item {
+  color: var(--heading-color) !important;
+  font-weight: 6 00;
+}
+
+.purchase-bn {
+  border: 2px solid var(--heading-color);
+  border-radius: 30px;
+  padding: 4px 18px;
+  background: transparent;
+  color: var(--heading-color);
+}
+
+/* Header */
+.hero-header {
+  background: url(https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg) no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Welcome to the Elixir*/
+.services i {
+  font-size: 45px;
+  color: var(--heading-color);
+  margin-bottom: 30px;
+  border: 0.5px solid var(--heading-color);
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.services h4 {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.video-box img {
+  border-radius: 10px;
+}
+
+.features i {
+  font-size: 30px;
+  color: var(--heading-color);
+  margin-right: 12px;
+}
+
+/* Our Services */
+.services-section {
+  padding: 60px 0;
+}
+
+.services-section h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.services-section h1 p.section-intro {
+  margin-bottom: 50px;
+}
+
+/* .service-box {
+      margin-bottom: 50px;
+    } */
+
+.service-text h4 {
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--heading-color);
+}
+
+.service-text p {
+  font-size: 18px;
+  color: #555;
+}
+
+.service-text a {
+  font-weight: 600;
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.service-text a:hover {
+  text-decoration: underline;
+}
+
+.bottom-services i {
+  font-size: 28px;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+}
+
+.bottom-services h6 {
+  font-weight: 600;
+}
+
+.bottom-services p {
+  font-size: 14px;
+  color: #666;
+}
+
+

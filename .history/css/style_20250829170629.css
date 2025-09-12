@@ -1,0 +1,30 @@
+/* ==============================
+   Root Variables
+=================================*/
+:root {
+  --heading-color: #2a3855;
+  --button-color:#fdd428;
+}
+.white{
+  color: white; 
+}
+.heading{
+  color: var(--heading-color);
+}
+.yellow{
+  color: var(--button-color);
+}
+
+/* ==============================
+   StyleSheet
+=================================*/
+.top-nav{
+    background-color: var(--heading-color);
+    padding: 15px 100px;
+    font-size: 12px;
+    margin
+}
+
+/* ==============================
+   Navbar
+=================================*/

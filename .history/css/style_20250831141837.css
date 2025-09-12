@@ -1,0 +1,56 @@
+/* ==============================
+   Root Variables
+=================================*/
+:root {
+  --heading-color: #2a3855;
+  --button-color:#fdd428;
+}
+.white{
+  color: white; 
+}
+.heading{
+  color: var(--heading-color);
+}
+.heading-bg{
+  background-color: var(--heading-color);
+}
+.yellow{
+  color: var(--button-color);
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Top info bar */
+.topbar {
+  background: var(--heading-color);
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 0;
+}
+
+/* Navbar */
+.main-nav {
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, .06);
+}
+
+.brand-text {
+  font-weight: 400 !important;
+  color: var(--heading-color) !important;
+  font-size: 60px !important;
+}
+
+.nav-link {
+  color: #35445a !important;
+  padding: .7rem 1rem;
+}
+
+.btn-purchase {
+  border: 2px solid var(--navy);
+  color: var(--navy);
+  border-radius: 30px;
+  padding: .35rem 1.05rem;
+  background: transparent;
+}

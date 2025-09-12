@@ -1,0 +1,56 @@
+/* ==============================
+   Root Variables
+=================================*/
+:root {
+  --heading-color: #2a3855;
+  --button-color:#fdd428;
+}
+.white{
+  color: white; 
+}
+.heading{
+  color: var(--heading-color);
+}
+.yellow{
+  color: var(--button-color);
+}
+
+.topbar {
+        background: #1d2d50;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 0;
+      }
+      .navbar-brand img {
+        height: 35px;
+      }
+      .btn-purchase {
+        border: 1px solid #000;
+        border-radius: 25px;
+        padding: 5px 15px;
+        background: transparent;
+      }
+      .carousel-caption {
+        text-align: left;
+        left: 10%;
+        right: auto;
+        top: 25%;
+        bottom: auto;
+      }
+      .carousel-caption h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        color: #1d2d50;
+      }
+      .carousel-caption p {
+        font-size: 1.2rem;
+        color: #333;
+      }
+      .btn-dark {
+        background: #1d2d50;
+        border: none;
+      }
+      .btn-warning {
+        color: #000;
+        font-weight: 600;
+      }

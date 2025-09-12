@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Assets/css/login.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <main class="login-main">
+
+    <!-- Background Image -->
+    <div class="login-bg">
+      <img src="./" alt="background" class="login-bg-img">
+    </div>
+
+    <!-- Login Section -->
+    <section class="login-section d-flex justify-content-center align-items-center">
+      <div class="login-container text-center">
+
+        <!-- Logo -->
+        <div class="login-logo mb-4">
+          <a href="../index.html">
+            <img src="./Assets/images/logo-light (1).png" alt="logo">
+          </a>
+        </div>
+
+        <!-- Login Card -->
+        <div class="card login-card shadow-lg">
+          <div class="card-body p-5">
+            <h4 class="text-uppercase mb-4 fw-bold">Login with Elixir</h4>
+
+            <form class="text-start">
+
+              <!-- Username -->
+              <div class="mb-3">
+                <div class="input-group">
+                  <span class="input-group-text bg-light"><i class="ri-user-line"></i></span>
+                  <input type="text" class="form-control" placeholder="Email or Username">
+                </div>
+              </div>
+
+              <!-- Password -->
+              <div class="mb-4">
+                <div class="input-group">
+                  <span class="input-group-text bg-light"><i class="ri-lock-fill"></i></span>
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+              </div>
+
+              <!-- Actions -->
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="rememberMe">
+                  <label class="form-check-label" for="rememberMe">Remember Me</label>
+                </div>
+                <button type="submit" class="btn btn-primary px-4">Login</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

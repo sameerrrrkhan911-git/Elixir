@@ -1,0 +1,13 @@
+/* ==============================
+   Root Variables
+=================================*/
+:root {
+  --heading-color: #4e4e4e;
+  --button-color:rgb(255, 255, 59);
+}
+.top-nav{
+    background-color: var(--heading-color);
+}
+body{
+  background-color: black;
+}
